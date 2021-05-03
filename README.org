@@ -1,0 +1,39 @@
+* Program
+*google_drive.py*
+
+** Service 
+*Google cloud platform*
+
+
+** Preparations
+Set on the next screen [[https://console.cloud.google.com/apis/dashboard][Google Cloud Platform]]
+
+- credentials.json
+  - Once set, it will be saved automatically 
+
+- setting.yaml
+
+  #+begin_src 
+  client_config_backend: settings
+client_config:
+  client_id: should download client secret file. client id in file
+  client_secret: should download client secret file. client client_secret in file 
+  
+  save_credentials: True
+  save_credentials_backend: file
+  save_credentials_file: credentials.json
+
+  get_refresh_token: True
+
+  oauth_scope:
+  # If you set it, you can skip the approval page. 
+  - xxxx
+  - xxxx
+  #+end_src
+
+- URI
+It is good to use the following settings. URI → http://localhost:8080
+
+** reference
+
+- [[https://qiita.com/ftnext/items/60ced8bc432bec6101f0][qiita_URL]]

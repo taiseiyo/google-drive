@@ -9,7 +9,8 @@
 Set on the next screen [[https://console.cloud.google.com/apis/dashboard][Google Cloud Platform]]
 
 - credentials.json
-  - Once set, it will be saved automatically 
+  - Once set, it will be saved automatically.
+  - Need to renew when it expires.
 
 - setting.yaml
 

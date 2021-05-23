@@ -30,6 +30,7 @@ class Google_Drive_Operation:
         clip_extension = re.search(pattern, file_name).group(1)
         f = self.drive.CreateFile(
             {"title": file_name, "mimeType": extension[clip_extension]})
+        # set local file
         f.SetContentFile(file_name)
         f.Upload()
 

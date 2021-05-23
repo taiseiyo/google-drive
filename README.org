@@ -8,9 +8,8 @@
 ** Preparations
 Set on the next screen [[https://console.cloud.google.com/apis/dashboard][Google Cloud Platform]]
 
-- credentials.json
-  - Once set, it will be saved automatically.
-  - Need to renew when it expires.
+- client secret file.json 
+  - Get from the Authentication information in Google Cloud Platform 
 
 - setting.yaml
 
@@ -32,8 +31,16 @@ Set on the next screen [[https://console.cloud.google.com/apis/dashboard][Google
   - xxxx
   #+end_src
 
+
+- credentials.json
+  - It will be saved automatically. You don't have to make any settings.
+  - Need to renew when it expires.
+
+
 - URI
-It is good to use the following settings. URI → http://localhost:8080
+It is good to use the following settings in Authentication information. 
+
+URI → http://localhost:8080
 
 ** reference
 
